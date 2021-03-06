@@ -23,12 +23,12 @@ pipeline {
         }
 
 
-        stage ('Deployment Stage') {
-            steps {
+       // stage ('Deployment Stage') {
+           // steps {
                 //tools(maven : 'maven_3_6_3') {
-                    bat "mvn deploy"
+                   // bat "mvn deploy"
                 //}
-            }
-        }
+           // }
+       // }
     }
 }
